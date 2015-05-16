@@ -5,6 +5,32 @@
 	<title>Over | Home</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" type="text/css" href="animate.min.css" />
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+	(function($){
+		$.fn.Center= function(){
+			this.css({
+				'position' : 'fixed',
+				'left' : '50%',
+				'top' : '50%'
+			});
+
+			this.css({
+				'margin-left': -this.width()/2 + 'px',
+				'margin-top' : -this.height()/2 + 'px'
+			});
+		};
+	})(jQuery);
+
+	$(document).ready(function(){
+		$("#menu").Center();
+
+	});
+
+	</script>
 </head>
 <body>
 
