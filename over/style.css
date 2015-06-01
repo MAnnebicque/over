@@ -65,7 +65,7 @@ left: 0px;top: 0px;
 	transition: all 0.5s ease;
 }
 
-#about_new{
+#menu_new{
 	transform:scale(0.5);
 	position: absolute;
 	display: block;
@@ -94,6 +94,7 @@ left: 0px;top: 0px;
 	left: 50%;top: 50%;
 	transform:translate(-50%,-50%);
 	width: auto; height: 130px;	
+	cursor: pointer;
 	
 }
 
@@ -191,4 +192,69 @@ width: 50px;height: 50px;
 	position: absolute;
 	left: 600px;top: 0px;
 	cursor: pointer;
+}
+
+/* PAGE ARRIVANTE */
+
+#work_page {
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: hidden;
+}
+
+#work_page_new {
+	transition: all ease 2s;
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: visible;
+}
+
+#about_page {
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: hidden;
+}
+
+#about_page_new {
+	transition: all ease 2s;
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: visible;
+}
+
+#contact_page {
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: hidden;
+}
+
+#contact_page_new {
+	transition: all ease 2s;
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: visible;
 }
