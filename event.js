@@ -1,60 +1,59 @@
-var work;
-var about;
-var contact;
-var backWorkToInit;
-var backContactToInit;
-var backAboutToInit;
+function work(){
+   var work = document.getElementById('work');
+
+   work.onclick = function(){
+          document.getElementById("menu_depart").id ="menu_new";
+          document.getElementById("work_page").id="work_page_new";
+   };
+}
 
 
+function about(){
+   var about = document.getElementById('about');
 
-function toto() {
-	if (work.onClick){
-       work= document.getElementById('work');
-       document.getElementById("rotate_click").id ="menu_new";
-       document.getElementById("work_page").id="work_page_new";
-  }
+   about.onclick = function(){
+          document.getElementById("menu_depart").id ="menu_new";
+          document.getElementById("about_page").id="about_page_new";
+   };
+}
 
-  if (about.onClick){
-       about= document.getElementById('about');
-       document.getElementById("rotate_click").id ="menu_new";
-       document.getElementById("work_page").id="work_page_new";
-      
-  }
 
-  if (contact.onClick){
-       contact= document.getElementById('contact');
-       document.getElementById("rotate_click").id ="menu_new";
-       document.getElementById("contact_page").id="contact_page_new";
-      
-  }
+function contact(){
+   var contact = document.getElementById('contact');
 
-  if (logo.onClick){
-      back();
-      backWorkToInit = document.getElementById("work_page_new").id="work_page";
-      backContactToInit = document.getElementById("contact_page_new").id="contact_page";
-      backAboutToInit = document.getElementById("about_page_new").id="about_page";
-  }
+   contact.onclick = function(){
+          document.getElementById("menu_depart").id ="menu_new";
+          document.getElementById("contact_page").id="contact_page_new";
+   };
+}
 
+
+function back(){
+  //  var backWorkToInit = document.getElementById('logo');
+  //  var backAboutToInit = document.getElementById('logo');
+  //  var backContactToInit = document.getElementById('logo');
+
+  //  if (backWorkToInit.onclick = function()){
+  //         document.getElementById("menu_new").id ="menu_depart";
+  //         document.getElementById("work_page_new").id="work_page";};
+
+  // if (backAboutToInit.onclick = function()){
+  //         document.getElementById("menu_new").id ="menu_depart";
+  //         document.getElementById("about_page_new").id="about_page";};
+
+  // if (backContactToInit.onclick = function()){
+  //         document.getElementById("menu_new").id ="menu_depart";
+  //         document.getElementById("contact_page_new").id="contact_page";};
+          
+   var back = document.getElementById('back');
+
+   back.onclick = function(){
+          document.getElementById("menu_depart").id ="menu_new";
+          document.getElementById("contact_page").id="contact_page_new";
+   };
 }
 
 
 
-var back= function back(){
-  var back = document.getElementById('logo');
-	document.getElementById("menu_new").id = "rotate_click";  
-
-}
-
-
-
-/*  
-
-quand tu click sur id work 
-->menu déplace : rotate_click
-->affichage de la page work_page
--> quand tu recliques sur about -> affiche la page about_page
--> quand tu recliques sur contact -> affiche la page contact_page 
--> quand tu cliques sur le logo, comme back()
-
-*/
-
+          
+          

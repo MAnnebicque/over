@@ -41,7 +41,7 @@ body {
 	border: 8px solid #4CD964;
 }
 
-#rotate_click{
+#menu_depart{
 	
 width: 326px; height: 326px;
 left: 0px;top: 0px;
@@ -206,16 +206,6 @@ width: 50px;height: 50px;
 	visibility: hidden;
 }
 
-#work_page_new {
-	transition: all ease 2s;
-	position: absolute;
-	width: 1000px;height: 100%;
-	background-color: white;
-	color: black;
-	z-index: 50;
-	left: 38%;
-	visibility: visible;
-}
 
 #about_page {
 	position: absolute;
@@ -225,17 +215,6 @@ width: 50px;height: 50px;
 	z-index: 50;
 	left: 38%;
 	visibility: hidden;
-}
-
-#about_page_new {
-	transition: all ease 2s;
-	position: absolute;
-	width: 1000px;height: 100%;
-	background-color: white;
-	color: black;
-	z-index: 50;
-	left: 38%;
-	visibility: visible;
 }
 
 #contact_page {
@@ -248,8 +227,7 @@ width: 50px;height: 50px;
 	visibility: hidden;
 }
 
-#contact_page_new {
-	transition: all ease 2s;
+#work_page_new {
 	position: absolute;
 	width: 1000px;height: 100%;
 	background-color: white;
@@ -258,3 +236,26 @@ width: 50px;height: 50px;
 	left: 38%;
 	visibility: visible;
 }
+
+
+#about_page_new {
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: visible;
+}
+
+#contact_page_new {
+	position: absolute;
+	width: 1000px;height: 100%;
+	background-color: white;
+	color: black;
+	z-index: 50;
+	left: 38%;
+	visibility: visible;
+}
+
+
