@@ -1,59 +1,49 @@
-function work(){
-   var work = document.getElementById('work');
 
-   work.onclick = function(){
-          document.getElementById("menu_depart").id ="menu_new";
-          document.getElementById("work_page").id="work_page_new";
-   };
+
+function afficherWorkContent() {
+  document.getElementById('work-content').style.width = "70%";
+  document.getElementById('work-content').style.visibility = "visible";
+  document.getElementById('closeContent').style.visibility = "visible";
+}
+document.getElementById('work').onclick = afficherWorkContent;
+
+function fermerContent() {
+document.getElementById('closeContent').style.visibility = "hidden";
+document.getElementById('work-content').style.width = "0%";
+document.getElementById('about-content').style.width = "0%";
+document.getElementById('contact-content').style.width = "0%";
+ }
+document.getElementById('closeContent').onclick = fermerContent;
+
+
+function afficherAboutContent() {
+
+
+  document.getElementById('about-content').style.visibility = "visible";
+  document.getElementById('about-content').style.width = "70%";
+  document.getElementById('closeContent').style.visibility = "visible";
 }
 
+document.getElementById('about').onclick = afficherAboutContent;
 
-function about(){
-   var about = document.getElementById('about');
+function afficherContactContent() {
 
-   about.onclick = function(){
-          document.getElementById("menu_depart").id ="menu_new";
-          document.getElementById("about_page").id="about_page_new";
-   };
+
+  document.getElementById('contact-content').style.visibility = "visible";
+  document.getElementById('contact-content').style.width = "70%";
+  document.getElementById('closeContent').style.visibility = "visible";
 }
 
+document.getElementById('contact').onclick = afficherContactContent;
 
-function contact(){
-   var contact = document.getElementById('contact');
-
-   contact.onclick = function(){
-          document.getElementById("menu_depart").id ="menu_new";
-          document.getElementById("contact_page").id="contact_page_new";
-   };
-}
+// function logoMove() {
 
 
-function back(){
-  //  var backWorkToInit = document.getElementById('logo');
-  //  var backAboutToInit = document.getElementById('logo');
-  //  var backContactToInit = document.getElementById('logo');
+//   document.getElementById('menu').style.visibility = "visible";
+//   document.getElementById('menu').style.left = "500px";
+//   document.getElementById('menu').style.top = "80px";
+//   document.getElementById('menu').style.webkitTransform = "scale(0.5)";
 
-  //  if (backWorkToInit.onclick = function()){
-  //         document.getElementById("menu_new").id ="menu_depart";
-  //         document.getElementById("work_page_new").id="work_page";};
+// }
 
-  // if (backAboutToInit.onclick = function()){
-  //         document.getElementById("menu_new").id ="menu_depart";
-  //         document.getElementById("about_page_new").id="about_page";};
-
-  // if (backContactToInit.onclick = function()){
-  //         document.getElementById("menu_new").id ="menu_depart";
-  //         document.getElementById("contact_page_new").id="contact_page";};
-          
-   var back = document.getElementById('back');
-
-   back.onclick = function(){
-          document.getElementById("menu_depart").id ="menu_new";
-          document.getElementById("contact_page").id="contact_page_new";
-   };
-}
-
-
-
-          
-          
+// document.getElementById('').onclick = logoMove;
