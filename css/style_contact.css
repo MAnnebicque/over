@@ -265,7 +265,7 @@ Form
   background: url("../img/cd-required.svg") no-repeat top right;
 }
 .cd-form .error-message p {
-  background: #e94b35;
+  background: #4CD964;
   color: #ffffff;
   font-size: 1.4rem;
   text-align: center;
@@ -275,7 +275,7 @@ Form
   padding: 16px;
 }
 .cd-form .error {
-  border-color: #e94b35 !important;
+  border-color: #4CD964 !important;
 }
 @media only screen and (min-width: 600px) {
   .cd-form div {
