@@ -11,9 +11,9 @@
     $to = "martin.guillaume19@gmail.com"; // Replace xxxx@xxxx.com with your email address (mandatory!) 
     $subject = "Commande :". $company; // Choose a custom subject (not mandatory)
 
-    $body = $name . " (" . $email . "):\n\n" . $message ." \n \n Compagnie :  " . $company ." \n Budget : ". $price ."\n \n Project : ". $project . ;
+    $body = $name . " (" . $email . "):\n\n" . $message ." \n \n Compagnie :  " . $company ." \n Budget : ". $price ."\n \n Project : ". $project ;
 
-    $from = "wwww.guillaumemartin.pe.hu"; // Replace "Beetle Template" with your site name (not mandatory)   
+    $from = "wwww.over.pe.hu"; // Replace "Beetle Template" with your site name (not mandatory)   
     $headers = "From:" . $from . "\r\n";
     $headers .= "Reply-To: " . $email . "\r\n";
     $headers .= "X-Mailer: PHP/" . phpversion();    
