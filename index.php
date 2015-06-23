@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Over, simply dream</title>
 	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="css/style_contact.css">
 	<link rel="stylesheet" type="text/css" href="animate.min.css" />
 	<link rel="icon" type="image/png" href="./img/favicon.png" />
 
@@ -67,7 +69,7 @@
     </div>
 
 	<div id="contact-content">
-		<p>content contact contact</p>
+		<?php include('./inc/contact-page.php') ?>
 	</div>
             
 	</div>
